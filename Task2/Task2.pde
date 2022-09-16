@@ -20,7 +20,11 @@ boolean happy = true;
 }
 
 boolean iAmHappy(){
+  if (happy) {
   return happy;
+  }
+  else {
+  return false;}
 }
 
 int Sum(int a, int b) {
