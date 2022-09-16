@@ -1,4 +1,4 @@
-boolean happy = true;
+boolean happy = false;
 
  void setup() {
    if (iAmHappy())
@@ -20,21 +20,22 @@ boolean happy = true;
 }
 
 boolean iAmHappy(){
-  if (happy) {
   return happy;
-  }
-  else {
-  return false;}
 }
 
 int Sum(int a, int b) {
   int add;
   add = a+b;
   return add;
+  
+ // return a+b;
 }
 
 String convertUp(String s) {
   return s.toUpperCase();
+  
+  // String up = s.toUpperCase();
+  // return up;
 }
   
   boolean firstUp (String St) {
